@@ -1,0 +1,46 @@
+<div style="padding-left: 60px; padding-right: 60px; padding-top: 20px;" class="container-fluid">
+    <div class="row d-flex flex-row">
+        <div style="padding: 10px;" class=" col-6 col-lg-6 col-md-6 " *ngFor="let piz of pizzaList">
+
+            <div style="padding-left: 20px; padding-right: 20px; padding-top: 15px;  border-radius: 20px;"
+                class="card shadow  d-flex flex-row">
+                <div class="col-3 col-lg-3 col-md-3">
+                    <p class="pizza-title">{{piz.pizza_title}}</p>
+
+                    <div style="height:22px; width:22px; margin: 5px; margin-left: 20px"
+                        [ngClass]="{'red-box' : piz.type == 'non' , 'green-box': piz.type == 'veg'}">
+
+                        <div style="height:14px; width:14px; border-radius: 7px; margin-left: 2px; margin-top: 2px;"
+                            [ngClass]="{'red' : piz.type == 'non' , 'green': piz.type == 'veg'}"></div>
+
+                    </div>
+
+                    <p class="pizza-price">{{piz.price| currency:'INR'}}</p>
+                </div>
+
+                <div class="col-6 col-lg-6 col-md-6">
+                    <p class="pizza-desciption">{{piz.discription}}</p>
+                    <p class="pizza-sub-title">Ingredients <span class="pizza-desciption">{{piz.ingredients}}</span></p>
+                    <p class="pizza-sub-title">Toppings <span class="pizza-desciption">{{piz.toppings}}</span></p>
+                </div>
+
+                <div style="padding: 10px;" class="col-3 col-lg-3 col-md-3">
+                    <img class="shadow" style="border-radius: 10px;" height="110" width="110" [src]="piz.images" />
+                    <button (click)="actionMethod($event, piz)"
+                        style="font-size: 12px; font-weight: 600; color: white; margin-top: 20px;"
+                        class="shadow btn btn-warning">Add to cart</button>
+                    <!-- <button (click)="changeColor($event)" [ngClass]="{'green' : toggle, 'red': !toggle}">{{status}}</button> -->
+                    <!-- (click)="changeColor()" [ngClass]="{'green' : toggle, 'red': !toggle}" -->
+                    <!-- <button class="btn btn-warning text-white" *ngIf="!isInCart" (click)="checkedItem($event, piz)">Add</button>
+                    <button class="btn btn-danger text-white" *ngIf=isInCart (click)="canceledItem($event, piz)">Cancel</button>  -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <p style="font-size: 17px; font-style: italic; font-weight: 500; padding-top: 10px; color: rgb(201, 131, 3);"
+        class=" text-center">Copyrights @ 2017 Pizzeria. All rights reserved</p>
+
+</div>

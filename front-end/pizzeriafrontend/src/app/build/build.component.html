@@ -1,0 +1,84 @@
+<div>
+    <div class="text-center" style="padding-left: 100px;padding-right: 100px;">
+        <p style="padding-top: 20px;" class="pizza-desciption">Pizzera now gives you options to build your own pizza,
+            Customize your pizza by
+            choosing ingredients from the list given</p>
+        <div class="col-lg-8 col-sm-8 col-md-8 col-8" style="margin-left: 150px;">
+            <table style=" align-content: center;" class="table table-bordered table-striped">
+                <tbody>
+                    <tr *ngFor="let item of buildList">
+                        <td>
+                            <img [src]="item.images" height="60" width="60" />
+                        </td>
+                        <td style="padding-top: 40px;" class="d-flex flex-row justify-content-center">
+                            <p class="pizza-title">{{item.title}}</p>
+                            <p class="pizza-price">{{item.price| currency:'INR'}}</p>
+                        </td>
+                        <td style="padding-top: 40px;">
+                            <div class="form-check">
+                                <input (click)="total($event, item)" class="form-check-input" type="checkbox" value=""
+                                    id="flexCheckDefault">
+                                <label style="font-weight: bold; color: rgb(255, 166, 0);" class="form-check-label"
+                                    for="flexCheckDefault">
+                                    ADD
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <p style="padding-left: 300px;" class="pizza-total">Total Price : <span class="pizza-price"> {{ totalCost |
+            currency:'INR'}}</span></p>
+
+
+
+
+
+    <!-- Button trigger modal -->
+    <button type="button" style="margin-bottom: 20px; margin-top: 20px; margin-left: 50px;"
+        class="btn btn-dark text-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Build Ur Pizza
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Pizzeria Ingredients Bill</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 500; font-size: 22px; color: rgb(12, 1, 77);">Your Total Billing : <span
+                            class="pizza-price"> {{totalCost| currency:'INR'}}</span></p>
+                    <p style="color: rgb(148, 134, 134); font-size: 14px;">
+                        Thank you for purchasing our Ingredients from Pizzeria Store.
+                        Your support and trust in us are much appreciated.
+                        For your next purchase, use coupon code: <span
+                            style="color: rgb(5, 67, 117); font-weight: bold; font-size: 16px;">PIZZERIA30%</span>
+                        and get <span style="color: rgb(5, 67, 117); font-weight: bold; font-size: 16px;">30%
+                            discount</span> on any Food</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning" style="color: white;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            class="bi bi-credit-card" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
+                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
+                        </svg>
+                        Pay Money
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p style="font-size: 17px; font-style: italic; font-weight: 500; padding-top: 10px; color: rgb(201, 131, 3);"
+        class=" text-center">Copyrights @ 2017 Pizzeria. All rights reserved</p>
+
+</div>

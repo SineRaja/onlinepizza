@@ -1,0 +1,75 @@
+[
+    {
+        "pizza_title": "Neapolitan Pizza",
+        "price": 499,
+        "discription": "Neapolitan is the original pizza. This delicious pie dates all the way back to 18th century in Naples, Italy. During this time, the poorer citizens of this seaside city frequently purchased food that was cheap and could be eaten quickly.",
+        "ingredients": "Features tomatoes, garlic, oregano, and extra virgin olive oil. Features tomatoes, sliced mozzarella, basil, and extra virgin olive oil.",
+        "toppings":"Features tomatoes, mozzarella from Campania, basil, and extra virgin olive oil.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/11/pizzatypes-margherita-.jpg",   
+        "type":"veg"
+    },
+    {
+        "pizza_title": "Chicago Pizza",
+        "price": 399,
+        "discription": "Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in. During the early 1900’s, Italian immigrants in the windy city were searching for something similar to the Neapolitan pizza that they knew and loved",
+        "ingredients": " He created a pizza with a thick crust that had raised edges, similar to a pie, and ingredients in reverse, with slices of mozzarella lining the dough followed by meat, vegetables, and then topped with a can of crushed tomatoes.",
+        "toppings":"Generally, the toppings for Chicago pizza are ground beef, sausage, pepperoni, onion, mushrooms, and green peppers, placed underneath the tomato sauce. Some locations will finish off their pizzas with a sprinkle of Parmesan cheese across the tomato sauce.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/11/pizzatypes-deepdish.jpg",   
+        "type":"non"
+    },
+    {
+        "pizza_title": "New York-Style Pizza",
+        "price": 999,
+        "discription": "With its characteristic large, foldable slices and crispy outer crust, New York-style pizza is one of America’s most famous regional pizza types.",
+        "ingredients": "Just like the Neapolitan pizza, many will tell you that in order for a New York-style pizza to be authentic, it has to be cooked in a wood or coal burning oven. Today, many people use gas deck ovens to bake them, which creates the same delicious and crispy result.",
+        "toppings":" While this style of pizza can have virtually any topping added to it, it's common to find pizza lovers topping New York pizza with condiments, like oregano, red pepper flakes, Parmesan cheese, and garlic powder.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/blog/2016/8/flat.jpg",   
+        "type":"veg"
+    },
+    {
+        "pizza_title": "Sicilian Pizza",
+        "price": 599,
+        "discription": "Sicilian pizza, also known as sfincione, provides a thick cut of pizza with pillowy dough, a crunchy crust, and robust tomato sauce.",
+        "ingredients": "To bring out the flavor of your Sicilian pizza dough, try lining your pan with an olive oil blend. The temperature of your oven will determine how long you should bake your pie. ",
+        "toppings":"Sicilian pizzas are often topped with bits of tomato, onion, anchovies, and herbs.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/blog/2016/8/rectangle.jpg",   
+        "type":"veg"
+    },
+    {
+        "pizza_title": "Greek Pizza",
+        "price": 199,
+        "discription": "Greek pizza was created by Greek immigrants who came to America and were introduced to Italian pizza. Greek-style pizza, especially popular in the New England states, features a thick and chewy crust cooked in shallow, oiled pans, resulting in a nearly deep-fried bottom.",
+        "ingredients": "To get a puffy, chewy crust, Greek pizza is typically baked in a shallow, round pan that has been heavily coated in olive oil. Lining the pan with oil also allows the bottom of the dough to fry while it bakes",
+        "toppings":"Greek pizza is usually heavier on the sauce than the cheese. The sauce typically has a tangy tomato paste with a strong oregano flavor. It is often only topped with cheese, which is usually a mix of mozzarella and cheddar or provolone.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/blog/2016/8/onions.jpg",   
+        "type":"non"
+    },
+    {
+        "pizza_title": "California Pizza",
+        "price": 299,
+        "discription": "California pizza, or gourmet pizza, is known for its unusual ingredients. This pizza got its start back in the late 1970’s when Chef Ed LaDou began experimenting with pizza recipes in the classic Italian restaurant, Prego.",
+        "ingredients": "Your choice to use either thin or thick crust will determine how you will bake your pizza.",
+        "toppings":"When it comes to California pizza, there's no such thing as traditional toppings. This lack of specificity allows you to get inventive. You can include anything from chicken and artichokes to goat cheese and egg.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/buying_guide/2014/11/pizzatypes-gourmet.jpg",   
+        "type":"non"
+    },
+    {
+        "pizza_title": "Detroit Pizza",
+        "price": 499,
+        "discription": "Reflecting the city’s deep ties to the auto industry, Detroit-style pizza was originally baked in a square automotive parts pan in the 1940’s. ",
+        "ingredients": "Use a specialized Detroit pan or a traditional jelly roll baking pan. Press the air out from the dough while pushing dough to the edges of the pan; stretch the dough up the sides about half of an inch.",
+        "toppings":"Detroit pizza traditionally features pepperoni, brick cheese (usually Wisconsin brick cheese), and tomato sauce. Other typical toppings include mushrooms and olives.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/blog/2019/3/blog-types-pizza_in-blog-7.jpg",   
+        "type":"non"
+    },
+    {
+        "pizza_title": "St. Louis Pizza",
+        "price": 699,
+        "discription": "Looking for a light slice? St. Louis pizza features a thin crust with a cracker-like consistency that is made without yeast. Due to the crispy crust, St. Louis pizza is usually cut into three- or four-inch rectangles, known as party or tavern cut.",
+        "ingredients": "",
+        "toppings":"St. Louis pizza features Provel cheese and a sweeter tomato sauce with a hefty dosage of oregano. Because of its firm crust, St. Louis-style pizza can support several toppings of your choice.",
+        "images": "https://cdnimg.webstaurantstore.com/uploads/blog/2019/3/blog-types-pizza_in-blog-8.jpg",   
+        "type":"non"
+    }
+   
+]

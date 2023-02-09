@@ -1,0 +1,20 @@
+.heading-text{
+    color: #183b56;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: "Open Sans";
+}
+
+.description{
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.image-design{
+    width: 450px;
+    height: 280px;
+    margin: 20px;
+    border-radius: 20px;
+}

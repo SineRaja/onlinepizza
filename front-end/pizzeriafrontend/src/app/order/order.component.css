@@ -1,0 +1,52 @@
+.pizza-title{
+    color: #183b56;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.pizza-desciption{
+    color: #5a7184;
+    font-size: 12px; 
+    font-weight: 500;
+    display:inline-block;
+    height: 55px;
+    overflow:hidden !important;
+}
+
+.pizza-sub-title{
+    color: #183b56;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.pizza-price{
+    color: #eb4a4a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.green-box {
+    border: 2px solid green;
+}
+
+.red-box {
+    border: 2px solid red;
+}
+
+.button-add{
+    font-size: 12px;
+    font-weight: 600;
+    color: white; 
+    margin-top: 20px;
+}
